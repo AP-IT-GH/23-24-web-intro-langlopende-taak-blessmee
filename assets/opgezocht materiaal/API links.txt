@@ -1,1 +1,3 @@
-https://data.stad.gent/api/explore/v2.1/catalog/datasets/bezetting-parkeergarages-real-time/records?limit=6
+https://data.stad.gent/api/explore/v2.1/catalog/datasets/bezetting-parkeergarages-real-time/records?order_by=totalcapacity%20DESC&limit=7
+
+gaat van meeste capaciteit naar laagste en de top 7 worden gegeven. de eerste gaat genegeerd worden 
