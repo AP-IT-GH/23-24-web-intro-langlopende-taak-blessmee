@@ -1,7 +1,7 @@
 .body {
     width: 100vw;
     height: 100vh;
-    background-image: url(/./images/pexels-mayumi-maciel-18358608\ \(1\).jpg);
+    background-image: url(/assets/images/pexels-mayumi-maciel-18358608\ \(1\).jpg);
     background-size: cover;
   }
 
@@ -12,3 +12,4 @@
 .white{
     color: #ffffff;
 }
+

@@ -13,7 +13,7 @@
 <body>
     <nav class="navbar navbar-expand-md bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="./images/bless_transp.png" alt="Magos" width="100" height="100">
+          <a class="navbar-brand" href="#"><img src="./assets/images/bless_transp.png" alt="Magos" width="100" height="100">
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -101,7 +101,7 @@
               <article class="row">
               <article class="mb-3 col">
               <label for="password" class="magosred">paswoord *</label>
-              <input type="password" class="form-control" id="password" name="password" placeholder="min 8 karakters, 1 cijfer, 1 hoofdletter" aria-label="min 8 karakters, 1 cijfer, 1 hoofdletter"><br><br>
+              <input type="password" class="form-control magosred" id="password" name="password" placeholder="min 8 karakters, 1 cijfer, 1 hoofdletter" aria-label="min 8 karakters, 1 cijfer, 1 hoofdletter"><br><br>
               </article>
               <article class="mb-3 col">
               <label for="password" class="magosred">bevestig passwoord</label>
@@ -131,7 +131,7 @@
               </article>
               <article class="mb-3 col">
                   <label for="land" class="magosred">welk land woont u ? *</label>
-                  <select id="inputState" class="form-select" name="land">
+                  <select id="inputState" class="form-select magosred" name="land">
                   <option value="België">België</option>
                   <option value="Nederland">Nederland</option>
                   <option value="Frankrijk">Frankrijk</option>
@@ -141,42 +141,79 @@
                   </select><br><br>
                   </article>
               </article>
-
+              <article>
+                <button type="submit" class="btn btn-primary">verzenden</button>
+              </article>
+             </fieldset>
+              <hr>
+             <fieldset>
+              <h3 class="magosred">Problmenen met website ?</h3>
+              <p class="magosred">Als u problemen heeft met de website. Gelieve onderstaand formulier invullen.<br> we sturen zo snel mogenlijk een servitor om het probleem op te lossen.</p>
+              <article class="mb-3">
+                <label for="subject" class="form-label magosred">Onderwerp</label>
+                <input type="text" class="form-control magosred" id="subject" placeholder="Afbeeldingen laden niet.">
+              </article>
+              <article class="mb-3">
+                <label for="inputtext" class="form-label magosred">Omschrijf het probleem</label>
+                <textarea class="form-control magosred" id="inputtext" rows="3"></textarea>
+              </article>
+              <article>
+                <button type="submit" class="btn btn-primary">verzenden</button>
+              </article>
+             </fieldset>
+             <hr>
+             <fieldset>
+              <h3 class="magosred">andere vragen ?</h3>
+              <p class="magosred">Als u iets specifiek wilt vragen, gelieve volgend formulier in te vullen</p>
+              <article class="mb-3 ">
+                <label for="email" class="magosred">email *</label>
+                <input type="email" class="form-control" id="email" name="email">
+                </article>
+              <article class="mb-3">
+                <label for="subject" class="form-label magosred">Onderwerp</label>
+                <input type="email" class="form-control magosred" id="subject" placeholder="Ik wil meer info">
+              </article>
+              <article class="mb-3">
+                <label for="inputtext" class="form-label magosred">uw vraag</label>
+                <textarea class="form-control magosred" id="inputtext" rows="3"></textarea>
+              </article>
+              <article>
+                <button type="submit" class="btn btn-primary">verzenden</button>
+              </article>
              </fieldset>
           </form>
           </section>
         </main>
-        <aside class="col-md-3 bg-dark">
-      <h2 class="text-uppercase fs-4 fw-bolder pt-3 ">contact en social media</h2>
-      <p>Magos parking listings<br>
-        email <a href="mailto:mail@magos-parking.be">mail@magos-parking.be</a><br>
-        phone +32 09 / 12 04 03</p>
-      <ul class="list-inline socials">
-        <li class="list-inline-item">
-          <a href="https://www.youtube.com/magos_parking" target="_blank">
-            <i class="bi bi-youtube magosred fs-3"></i>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a href="https://www.instagram.com/magos_parking" target="_blank">
-            <i class="bi bi-instagram magosred fs-3"></i>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a href="https://www.facebook.com/magos_parking" target="_blank">
-            <i class="bi bi-facebook magosred fs-3"></i>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a href="https://twitter.com//magos_parking" target="_blank">
-            <i class="bi bi-twitter magosred fs-3"></i>
-          </a>
-        </li>
-      </ul>
+        <aside class="bg-dark col-md-2">
+          <h2 class="text-uppercase fs-4 fw-bolder pt-3 magosred">contact en social media</h2>
+          <p class="magosred">Magos parking listings<br>
+            email: <a href="mailto:mail@magos-parking.be">mail@magos-parking.be</a><br>
+            phone +32 09 / 12 04 03</p>
+          <ul class="list-inline socials">
+            <li class="list-inline-item">
+              <a href="https://www.youtube.com/magos_parking" target="_blank">
+                <i class="bi bi-youtube magosred fs-3"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.instagram.com/magos_parking" target="_blank">
+                <i class="bi bi-instagram magosred fs-3"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.facebook.com/magos_parking" target="_blank">
+                <i class="bi bi-facebook magosred fs-3"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://twitter.com//magos_parking" target="_blank">
+                <i class="bi bi-twitter magosred fs-3"></i>
+              </a>
+            </li>
+          </ul>
         </aside>
       </div>
-    </div>
-    <footer class="magosred">2024 Magos parking listings </footer>
+        <footer class="magosred ">2024 Magos parking listings </footer>
     
 </body>
 </html>
