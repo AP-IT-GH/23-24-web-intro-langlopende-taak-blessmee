@@ -8,17 +8,17 @@ fetch(apiUrl)
             throw new Error('Er is een fout opgetreden bij het ophalen van de gegevens.');
         }
     })
-    .then(function(data) {
-        const place = data[0] 
-        console.log(place.totalcapacity)
-        console.log(place.availablecapacity)
+    .then(function(results) {
+        
+        console.log(results.totalcapacity)
+        console.log(results.availablecapacity)
        
         const ulElement1 = document.getElementById('mijnLijst1');
         ulElement1.innerHTML += `<li class="list-group-item">capaciteit :</li>
-        <li class="list-group-item">${place.totalcapacity}</li>`;
+        <li class="list-group-item">${results.totalcapacity}</li>`;
       
         const ulElement2 = document.getElementById('mijnLijst2');
         ulElement2.innerHTML += `<li class="list-group-item">beschikbaar :</li>
-        <li class="list-group-item">${place.availablecapacity}</li>`;
+        <li class="list-group-item">${results.availablecapacity}</li>`;
     })
 
