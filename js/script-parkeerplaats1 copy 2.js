@@ -22,3 +22,4 @@ fetch(apiUrl)
         <li class="list-group-item">${results.availablecapacity}</li>`;
     })
 
+
