@@ -1,4 +1,4 @@
-const apiUrl = 'https://data.stad.gent/api/explore/v2.1/catalog/datasets/bezetting-parkeergarages-real-time/records?limit=1&refine=name%3AB-Park%20Gent%20Sint-Pieters';
+const apiUrl = 'https://data.stad.gent/api/explore/v2.1/catalog/datasets/bezetting-parkeergarages-real-time/records?limit=20&refine=name%3ASint-Pietersplein';
 
 fetch(apiUrl)
     .then(function(response) {
