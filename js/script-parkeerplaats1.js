@@ -1,7 +1,5 @@
-
-
 // maak connectie met API
-fetch('https://data.stad.gent/api/explore/v2.1/catalog/datasets/bezetting-parkeergarages-real-time/records?limit=1&refine=name%3ASint-Pietersplein')
+fetch('https://data.stad.gent/api/explore/v2.1/catalog/datasets/bezetting-parkeergarages-real-time/records?limit=1&refine=name%3AB-Park%20Gent%20Sint-Pieters')
     .then(function (response) {
         // nakijken of de API-call een antwoord terugstuurt
         if (response.ok) {
