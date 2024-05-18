@@ -9,7 +9,15 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous" defer></script>
     <link rel="stylesheet" href="./css/style.css">
-
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/>
+   <link rel="stylesheet" href="./css/mapStyle.css">
+   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin="" defer></script>
+   <script src="./js/mapScript3.js" defer></script>
+   <script src="./js/script-parkeerplaats3.js" defer></script>
 </head>
 <body>
     <nav class="navbar navbar-expand-md bg-dark">
@@ -35,8 +43,8 @@
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="./parkeerplaats_1.html">Parking Gent-Sint-Pieters P1</a></li>
                   <li><a class="dropdown-item" href="./parkeerplaats_2.html">Parking Sint-Pietersplein</a></li>
-                  <li><a class="dropdown-item" href="./parkeerplaats_3.html">parkeerplaats 3</a></li>
-                  <li><a class="dropdown-item" href="./parkeerplaats_4.html">parkeerplaats 4</a></li>
+                  <li><a class="dropdown-item" href="./parkeerplaats_3.html">Vrijdagmarkt</a></li>
+                  <li><a class="dropdown-item" href="./parkeerplaats_4.html">Dok noord</a></li>
                   <li><a class="dropdown-item" href="./parkeerplaats_5.html">parkeerplaats 5</a></li>
                   <li><a class="dropdown-item" href="./parkeerplaats_6.html">parkeerplaats 6</a></li>
                 </ul>
@@ -52,8 +60,58 @@
           </div>
         </div>
     </nav>
-    <header></header>
-    <main></main>
+    <header>
+      <h1 class="magosred text-center">Vrijdagmarkt</h1>
+    </header>
+    <main>
+      <h2 class="magosred text-center">specificaties</h2>
+      <div class="container-fluid">
+         <figure class="row col-md-5 col-3">
+          <img src="./assets/images/ondergrondse-parking.jpg" alt="ondergrondse parking">
+          <figcaption>ondergrondse parking copyright pexels.com</figcaption>
+        </figure>
+
+
+
+        <section id="parking3"  class="row">
+          
+        </section>
+
+      </article>
+      </div>
+      <table class="table">
+        <thead>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">type</th>
+            <td>ondergrondse parking</td>
+
+          </tr>
+          <tr>
+            <th scope="row">handicapplaatsen</th>
+            <td>64
+            </td>
+
+          </tr>
+          <tr>
+            <th scope="row">hoogtebeperking</th>
+            <td>1,90m</td>
+          </tr>
+          <tr>
+            <th scope="row">openingsuren</th>
+            <td>24/7</td>
+          </tr>
+          <tr>
+            <th scope="row">LPG</th>
+            <td>Niet Toegestaan</td>
+          </tr>
+        </tbody>
+      </table>
+      <section id="map4" class="row">
+        <div id="mapparkeerplaats1" class="col-12 mb-3"></div>
+      </section> 
+    </main>
     <aside></aside>
     <footer class="magosred ">2024 Magos parking listings </footer>
     
