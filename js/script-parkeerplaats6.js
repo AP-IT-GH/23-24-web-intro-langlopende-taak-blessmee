@@ -1,7 +1,5 @@
-
-
 // maak connectie met API
-fetch('https://data.stad.gent/api/explore/v2.1/catalog/datasets/bezetting-parkeergarages-real-time/records?limit=1&refine=name%3ASint-Pietersplein')
+fetch('https://data.stad.gent/api/explore/v2.1/catalog/datasets/bezetting-parkeergarages-real-time/records?limit=1&refine=name%3ALedeberg')
     .then(function (response) {
         // nakijken of de API-call een antwoord terugstuurt
         if (response.ok) {
@@ -30,5 +28,5 @@ fetch('https://data.stad.gent/api/explore/v2.1/catalog/datasets/bezetting-parkee
         html += ' </section>';
 
         /*document.body.insertAdjacentHTML('beforeend', html);*/
-        document.getElementById("parking1").innerHTML = html;
+        document.getElementById("parking6").innerHTML = html;
     })

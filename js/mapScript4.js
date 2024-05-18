@@ -1,11 +1,11 @@
-const map4 = L.map('mapparkeerplaats1').setView([51.0565942,3.7262392,17.5], 17);
+const map5 = L.map('mapparkeerplaats1').setView([51.0654918,3.7326393,18.75], 17);
 
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 17,
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-}).addTo(map4);
+}).addTo(map5);
 
-const markerIcon4 = L.icon({
+const markerIcon5 = L.icon({
     iconUrl: `../assets/images/bless-transp.png`,
     iconSize: [31, 46], 
     iconAnchor: [15.5, 42], 
@@ -13,7 +13,7 @@ const markerIcon4 = L.icon({
   });
 
 
-const parkingpopup4 = L.popup().setContent("Vrijdagmarkt, 9000 Gent ");
-const parkingMarker4 = L.marker([51.0565942,3.7262392,17.5], {
-  icon: markerIcon4
-}).bindPopup(parkingpopup4).addTo(map4);
+const parkingpopup5 = L.popup().setContent("Dok-Noord 7, 9000 Gent ");
+const parkingMarker5 = L.marker([51.0654918,3.7326393,18.75], {
+  icon: markerIcon5
+}).bindPopup(parkingpopup5).addTo(map5);
